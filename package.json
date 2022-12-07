@@ -1,11 +1,14 @@
 {
-  "name": "file-loader",
-  "version": "6.2.0",
+  "name": "elc-file-loader",
+  "version": "1.0.0",
   "description": "A file loader module for webpack",
   "license": "MIT",
-  "repository": "webpack-contrib/file-loader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-elcesar/elc-file-loader.git"
+  },
   "author": "Tobias Koppers @sokra",
-  "homepage": "https://github.com/webpack-contrib/file-loader",
+  "homepage": "https://github.com/a-elcesar/elc-file-loader#readme",
   "bugs": "https://github.com/webpack-contrib/file-loader/issues",
   "funding": {
     "type": "opencollective",
@@ -41,7 +44,7 @@
     "webpack": "^4.0.0 || ^5.0.0"
   },
   "dependencies": {
-    "loader-utils": "^2.0.0",
+    "loader-utils": "^3.2.1",
     "schema-utils": "^3.0.0"
   },
   "devDependencies": {

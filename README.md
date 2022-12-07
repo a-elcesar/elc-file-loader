@@ -23,7 +23,7 @@ The `file-loader` resolves `import`/`require()` on a file into a url and emits t
 To begin, you'll need to install `file-loader`:
 
 ```console
-$ npm install file-loader --save-dev
+$ yarn add elc-file-loader --save-dev
 ```
 
 Import (or `require`) the target file(s) in one of the bundle's files:
