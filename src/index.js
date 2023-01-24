@@ -1,6 +1,6 @@
 import path from 'path';
 
-import { getOptions, interpolateName } from 'loader-utils';
+import { getOptions, interpolateName } from 'elc-loader-utils';
 import { validate } from 'schema-utils';
 
 import schema from './options.json';
